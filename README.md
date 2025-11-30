@@ -1,2 +1,3 @@
-# vending_machine_lld
- 
+# Vending Machine LLD
+
+![Vending Machine Diagram](docs/v1.png)

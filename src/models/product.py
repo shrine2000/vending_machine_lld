@@ -1,7 +1,24 @@
 class Product:
-    def __init__(self, name, quantity):
+    def __init__(self, name, price, quantity):
         self._name = name
+        self._price = price
         self._quantity = quantity
+
+    @property
+    def name(self):
+        return self._name
+
+    @property
+    def price(self):
+        return self._price
+
+    @property
+    def quantity(self):
+        return self._quantity
+
+    @quantity.setter
+    def quantity(self, value):
+        self._quantity = value
 
     @property
     def is_available(self):
